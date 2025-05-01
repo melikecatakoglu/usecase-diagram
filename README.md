@@ -30,72 +30,49 @@ Instead of overly restricting the use case writing process, the purpose of this 
   - [1.1](#generic-use-case-specification-format--syntax) We adopt the use case specification format from [Software Requirements (Third Edition)](https://www.microsoftpressstore.com/store/software-requirements-9780735679665) by Karl Wiegers and Joy Beatty with slight modification as a basis for writing use cases.
 <table style="width:100%; text-align: right;">
   <tr>
-    <td>UC ID and Name:</td>
-    <td style="width:60%" colspan="3"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-  </tr>
-  <tr>
-    <td>Created By:</td>
-    <td style="width:18%">&emsp;&emsp;&emsp;&emsp;</td>
-    <td>Date Created:</td>
-    <td style="width:18%">&emsp;&emsp;&emsp;&emsp;</td>
-  </tr>
-  <tr>
-    <td>Primary Actor:</td>
-    <td style="width:18%">&emsp;&emsp;&emsp;&emsp;</td>
-    <td>Secondary Actors:</td>
-    <td style="width:18%">&emsp;&emsp;&emsp;&emsp;</td>
-  </tr>
-  <tr>
-    <td>Trigger:</td>
+    <td>KD Kodu</td>
     <td style="width:60%" colspan="3"></td>
   </tr>
   <tr>
-    <td>Description:</td>
+    <td>KD Tanımı</td>
     <td style="width:60%" colspan="3"></td>
   </tr>
   <tr>
-    <td>Preconditions:</td>
+    <td>Aktörler</td>
     <td style="width:60%" colspan="3"></td>
   </tr>
   <tr>
-    <td>Postconditions:</td>
+    <td>Ön Koşul</td>
     <td style="width:60%" colspan="3"></td>
   </tr>
-  <tr>
-    <td>Main Success Scenario:</td>
+    <td rowspan="3">Ana Akış</td>
+    <td style="width:60%" colspan="2">Kullanıcı</td>
+    <td>Sistem</td>
+  </tr>
+  </tr>
+    <td style="width:60%" colspan="2">&emsp;</td>
+    <td rowspan="2"></td>
+  </tr>
+  </tr>
+    <td style="width:60%" colspan="2">&emsp;</td>
+  </tr>
+  </tr>
+    <td>Alternatif Akışlar</td>
+    <td style="width:60%" colspan="2"></td>
+    <td></td>
+  </tr>
+  </tr>
+    <td>İş Kuralları</td>
     <td style="width:60%" colspan="3"></td>
   </tr>
-  <tr>
-    <td>Extensions:</td>
-    <td style="width:60%" colspan="3"></td>
+  </tr>
+    <td rowspan="2">Bilgi Varlıkları</td>
+    <td style="width:60%" colspan="2">Birinci Seviye</td>
+    <td>İkinci Seviye</td>
   </tr>
   <tr>
-    <td>Priority:</td>
-    <td style="width:60%" colspan="3"></td>
-  </tr>
-  <tr>
-    <td>Frequency of Use:</td>
-    <td style="width:60%" colspan="3"></td>
-  </tr>
-  <tr>
-    <td>Business Rules:</td>
-    <td style="width:60%" colspan="3"></td>
-  </tr>
-  <tr>
-    <td>Associated Information:</td>
-    <td style="width:60%" colspan="3"></td>
-  </tr>
-  <tr>
-    <td>Related Use Cases:</td>
-    <td style="width:60%" colspan="3"></td>
-  </tr>
-  <tr>
-    <td>Assumptions:</td>
-    <td style="width:60%" colspan="3"></td>
-  </tr>
-  <tr>
-    <td>Open Issues:</td>
-    <td style="width:60%" colspan="3"></td>
+    <td colspan="2">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+    <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
   </tr>
 </table>
 
