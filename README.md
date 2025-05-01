@@ -97,7 +97,7 @@ Instead of overly restricting the use case writing process, the purpose of this 
 
 <a name="actors"></a>
 ## 3. Actors
-An actor specifies a role played by a user or any other system that interacts with the system under development. 
+An actor denotes a user who interacts with the system under development.
   <a name="actors--name"></a><a name="3.1"></a>
   - [3.1](#actors--name) Use a singular substantive name. To highlight this characteristic, capitalize the actor's name.
     - Positive example: The Spirit Team Director *&lt;completes a task&gt;*.
