@@ -45,13 +45,16 @@ Instead of overly restricting the use case writing process, the purpose of this 
     <td>Ön Koşul</td>
     <td style="width:60%" colspan="3"></td>
   </tr>
-    <td rowspan="3">Ana Akış</td>
+    <td rowspan="4">Ana Akış</td>
     <td style="width:60%" colspan="2">Kullanıcı</td>
     <td>Sistem</td>
   </tr>
   </tr>
     <td style="width:60%" colspan="2">&emsp;</td>
-    <td rowspan="2"></td>
+    <td rowspan="3"></td>
+  </tr>
+  </tr>
+    <td style="width:60%" colspan="2">&emsp;</td>
   </tr>
   </tr>
     <td style="width:60%" colspan="2">&emsp;</td>
