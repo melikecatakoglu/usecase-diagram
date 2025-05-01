@@ -213,10 +213,10 @@ Business rules include corporate policies, government regulations, laws, industr
 **[⬆ back to top](#table-of-contents)**
 
 <a name="last-condition"></a>
-## 8. Post Condition
+## 8. Last Condition
 A postcondition for a use case lists the possible states that the system can be in after the use case runs. The system must be in one of these states. A postcondition also specifies the actions that the system takes at the end of the use case, regardless of what happens in the use case.
-  <a name="post-condition"></a><a name="8.1"></a>
-  - [8.1](#post-condition) Use a singular substantive name. To highlight this characteristic, capitalize the actor's name.
+  <a name="last-condition"></a><a name="8.1"></a>
+  - [8.1](#last-condition) Use a singular substantive name. To highlight this characteristic, capitalize the actor's name.
     - Positive example: The system connects the new leave request to the database and the request status is assigned as "Pending". The system sends an automatic notification to notify the administrator.
     - Negative example: The request cannot be created. The system does not save any data, the current error message is displayed, and the user remains on the form page.
   <a name="related-use-cases--required"></a><a name="10.1"></a>
