@@ -45,6 +45,9 @@
     <td>Alternatif Akış</td>
     <td style="width:100%" colspan="3"></td>
   </tr>
+  <td>İstisnai Durum</td>
+    <td style="width:100%" colspan="3"></td>
+  </tr>
    <td>İş Kuralları</td>
     <td style="width:100%" colspan="3"></td>
   </tr> 
