@@ -115,7 +115,7 @@ The use cases that must be completed in the prerequisites should be specified.
 
 <a name="action-steps"></a>
 ## 5. Action steps
-Use case action steps are sentences that form a use case's main success scenario and extensions. According to [Alistair Cockburn](https://g.co/kgs/Hy777n), a use case action step either describes an interaction between two actors e.g., "The Customer enters address information." or a validation step to protect interest of a stakeholder e.g., "The System validates the credentials." or an internal change to satisfy a stakeholder e.g., "The System deducts amount from balance." Our style guide complements Cockburn's classic 10 action step writing guidelines by recommending proper words and sentence structures.
+Use case action steps are sentences that form a use case's main success scenario and extensions. 
 
   <a name="action-steps--primary-actor-intention"></a><a name="6.1"></a>
   - [6.1](#action-steps--primary-actor-intention) Use the following wording and sentence structure to describe the Primary Actor's intention (Corresponds to Cockburn's interaction between two actors):
