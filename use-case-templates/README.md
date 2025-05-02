@@ -1,10 +1,5 @@
 # Scaffolding a Use Case with a Use Case Templates Repository
 
-Besides the practical use case writing style guide introduced in [here](../README.md), we also developed a use case templates repository, where commonly used use cases are archived for reuse in different domain contexts. These use case templates are not meant to constrain the way a use case is written but to provide a starting point for requirements engineers. Think of them as intermediate good or semi-finished products, which need to be completed by requirements engineers to obtain a full-fledged use case specification.
-
-An easy-to-copy-and-paste version of this repository is available at [Google Docs](https://docs.google.com/document/d/1mdpekQ3sbKstbhFWDMD8-wzQuPRi-Y46t9z1XhcQ2BI/edit?usp=sharing). A real project's use case specification following the style guide and using the templates repository is available at [here](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit?usp=sharing). Feel free to provide feedback.
-
-> **Note**: A *&lt;whatever&gt;* as postulated by Alistair Cockburn represents an important business object. A requirements engineer only needs to substitute a concrete business object for *&lt;whatever&gt;*. Text enclosed in square brackets ''[]" and displayed in italics is included to provide guidance to the author and should be deleted before publishing the use case.
 
 ## Table of contents
 
@@ -39,12 +34,6 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
         <td style="width: 30%; text-align: left"></td>
       </tr>
       <tr>
-        <td>Trigger:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          The User indicates to find <em>&lt;whatever&gt;</em>s.
-        </td>
-      </tr>
-      <tr>
         <td>Description:</td>
         <td style="width: 80%; text-align: left" colspan="3">
           The User wants to find <em>&lt;whatever&gt;</em>s which match specific
@@ -59,12 +48,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
         </td>
       </tr>
       <tr>
-        <td>Postconditions:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          POST-1. A list of matching <em>&lt;whatever&gt;</em>s is returned and
-          displayed to the User. It is possible that the list is empty.
-        </td>
-      </tr>
+
       <tr>
         <td>Main Success Scenario:</td>
         <td style="width: 80%; text-align: left" colspan="3">
@@ -116,16 +100,7 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
           5 of the normal flow.
         </td>
       </tr>
-      <tr>
-        <td>Priority:</td>
-        <td style="width: 80%; text-align: left" colspan="3">High</td>
-      </tr>
-      <tr>
-        <td>Frequency of Use:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          Approximately *** user, average of *** usages per week.
-        </td>
-      </tr>
+
       <tr>
         <td>Business Rules:</td>
         <td style="width: 80%; text-align: left" colspan="3"></td>
@@ -208,17 +183,9 @@ An easy-to-copy-and-paste version of this repository is available at [Google Doc
           </ul>
         </td>
       </tr>
-      <tr>
-        <td>Assumptions:</td>
-        <td style="width: 80%; text-align: left" colspan="3"></td>
-      </tr>
-      <tr>
-        <td>Open Issues:</td>
-        <td style="width: 80%; text-align: left" colspan="3"></td>
-      </tr>
+   
     </table>
 
-See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog Student finds appearance requests](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.lg725m8k6v7b) and [Use Case 15: Spirit Director finds SuperFrog Students](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.ifmhdqaelx3n).
 
 **[⬆ back to top](#table-of-contents)**
 
