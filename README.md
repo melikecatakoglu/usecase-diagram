@@ -55,20 +55,20 @@
 **[⬆ back to top](#table-of-contents)**
 
 <a name="actors"></a>
-## 3. Actors
-An actor denotes a user who interacts with the system under development.
+## 3.Aktörler
+İlgili  kullanım durumunu gerçekleştirmeye yetkili olan kullanıcı sınıf(lar)ını belirtir..
   <a name="actors--name"></a><a name="3.1"></a>
-  - [3.1](#actors--name) Use a singular substantive name. To highlight this characteristic, capitalize the actor's name.
-    - Positive example: The Spirit Team Director *&lt;completes a task&gt;*.
-    - Negative example: The spirit team director *&lt;completes a task&gt;*.
+  - [3.1](#actors--name) Tekil bir öz isim kullanın. Bu özelliği vurgulamak için, oyuncunun adını büyük harfle yazın.
+    - Olumlu örnek: Spirit Team Direktörü *&lt;completes a task&gt;*.
+    - Olumsuz örnek: Ruh takımı yönetmeni *&lt;completes a task&gt;*.
 
 **[⬆ back to top](#table-of-contents)**
 
 <a name="precondition"></a>
-## 4.Precondition
-Used to define the initial conditions required for the use case to start.If these conditions are not met, the use case cannot be executed or the expected outputs cannot be obtained.
+## 4.Ön Koşullar
+Kullanım durumunun başlaması için gerekli olan başlangıç koşullarını tanımlamak için kullanılır.
    <a name="precondition"></a><a name="4.1"></a>
-   - [4.1](#precondition) Use a singular substantive name. To highlight this characteristic, capitalize the actor's name.
+   - [4.1](#precondition) 
      
     - Positive example: The user must be logged into the system.
     
@@ -80,84 +80,61 @@ The use cases that must be completed in the prerequisites should be specified.
 **[⬆ back to top](#table-of-contents)**
 
 <a name="action-steps"></a>
-## 5. Action steps
-Use case action steps are sentences that form a use case's main success scenario and extensions. 
+## 5. Ana AKış
+Kullanım durumunun normal, beklenen işlem adımlarını detaylandırmak için kullanılır. 
 
   <a name="action-steps--primary-actor-intention"></a><a name="6.1"></a>
-  - [6.1](#action-steps--primary-actor-intention) Use the following wording and sentence structure to describe the Primary Actor's intention (Corresponds to Cockburn's interaction between two actors):
-    - The *&lt;Primary Actor&gt;* indicates to/selects to/chooses to/requests to/attempts to . . .
-    - The *&lt;Primary Actor&gt;* submits . . .
-    - The *&lt;Primary Actor&gt;* views . . .
-    - The *&lt;Primary Actor&gt;* verifies . . . and confirms . . .
-    - The *&lt;Primary Actor&gt;* enters/provides/specifies . . . and confirms that she has finished entering.
-    - The *&lt;Primary Actor&gt;* continues entering . . .
-    - The *&lt;Primary Actor&gt;* . . . until she confirms that she has finished . . .
-    - The *&lt;Primary Actor&gt;* acknowledges . . . (e.g., the alert or warning) and confirms to continue.
-    - The *&lt;Primary Actor&gt;* ignores the warning/alarm and confirms to continue.
-
-  <a name="action-steps--systen-internal-processing"></a><a name="6.2"></a>
-  - [6.2](#action-steps--systen-internal-processing) Use the following wording and sentence structure to describe the system internal processing (Corresponds to Cockburn's validation step and internal change):
-    - The System validates, saves, records, calculates, updates, deletes, creates, retrieves, triggers . . .
-
-  <a name="action-steps--system-interaction"></a><a name="6.3"></a>
-  - [6.3](#action-steps--system-interaction) Use the following wording and sentence structure to describe an interaction started by the System (Corresponds to Cockburn's interaction between two actors):
-    - The System displays/shows/presents/informs . . . according to . . . defined in the Associated Information of this use case. (This is usually the information retrieved from a data source. For example, a list of products or a graph of stats. The previous action step may be "The System retrieves . . . ".)
-    - The System alerts/warns/alarms . . . (This is used when something is about to break the business rule, or something is about the change the state of the system, usually occurs in extensions.)
-    - The System asks the *&lt;Primary Actor&gt;* to enter . . . according to . . . defined in the Associated Information of this use case.
-    - The System prompts the *&lt;Primary Actor&gt;* . . . (The system knows some information that would help the user decide what to do next) or The System offers . . . options/methods/choices . . .
-    - The System notifies/sends *&lt;Secondary Actors&gt;* . . .
-
-  <a name="action-steps--system-to-system-interaction"></a><a name="6.4"></a>
-  - [6.4](#action-steps--system-to-system-interaction) Use the following wording and sentence structure to describe an interaction between the System and another system in the environment (Corresponds to Cockburn's interaction between two actors):
-    - The System has another system do something.
-    - The System requests another system to do something.
-    - Another System provides . . .
-
-  <a name="action-steps--system-feedback"></a><a name="6.5"></a>
-  - [6.5](#action-steps--system-feedback) The System always provides feedback that the requested task has been finished. This allows the User to know the command has been completed, even if it is not immediately obvious.
-    - Positive example: The System indicates that the calculation is finished.
+  - [6.1](#action-steps--primary-actor-intention) Birincil Oyuncunun niyetini tanımlamak için aşağıdaki ifadeleri ve cümle yapısını kullanın :
+    - The *&lt;Primary Actor&gt;* ... işaret eder/seçer/tercih eder/talep eder/denemeye çalışır.
+    - The *&lt;Primary Actor&gt;* sunar . . .
+    - The *&lt;Primary Actor&gt;* görünümler . . .
+    - The *&lt;Primary Actor&gt;* doğrular . . . ve onaylar . . .
+    - The *&lt;Primary Actor&gt;* girer/sağlar/belirtir . . . ve girmeyi bitirdiğini onaylar.
+    - The *&lt;Primary Actor&gt;* girmeye devam ediyor. . .
+    - The *&lt;Primary Actor&gt;* . . . bitirdiğini doğrulayana kadar . . .
+    - The *&lt;Primary Actor&gt;* . . . (örneğin uyarıyı veya ikazı) kabul eder ve devam etmeyi onaylar.
+    - The *&lt;Primary Actor&gt;* uyarıyı/alarmı yok sayar ve devam etmeyi onaylar.
 
   <a name="action-steps--user-feedback"></a><a name="6.6"></a>
-  - [6.6](#action-steps--user-feedback) The User always provides feedback to the System.
-    - Positive example: The User confirms that the . . . is complete.
-    - Positive example: The System processes . . . and indicates to the User . . . , then the User acknowledges the indication.
+  - [6.2](#action-steps--user-feedback) Kullanıcı her zaman Sistem’e geri bildirimde bulunur.
+   - Olumlu örnek: Kullanıcı, . . .'nin tamamlandığını onaylar.
+   - Olumlu örnek: Sistem . . .'yi işler ve Kullanıcıya . . .'yi gösterir, ardından Kullanıcı bu gösterimi kabul eder.
 
   <a name="action-steps--first-step"></a><a name="6.7"></a>
-  - [6.7](#action-steps--first-step) The first sentence in the main success scenario must report the event that activates the execution of the functionality described in the use case.
+  - [6.3](#action-steps--first-step) Ana başarı senaryosundaki ilk cümle, kullanım durumunda açıklanan işlevselliğin yürütülmesini etkinleştiren olayı bildirmelidir.
 
   <a name="action-steps--end-step"></a><a name="6.8"></a>
-  - [6.8](#action-steps--end-step) Use "Use case ends." to explicitly indicate the end of a use case.
+  - [6.4](#action-steps--end-step) Bir kullanım örneğinin sonunu açıkça belirtmek için "Kullanım örneği sonlanır." ifadesini kullanın.
 
-  <a name="action-steps--include-use-case"></a><a name="6.9"></a>
-  - [6.9](#action-steps--include-use-case) When including another use case, use "The User or System *&lt;completes a task&gt;* through <ins>UC-*&lt;ID&gt;*: *&lt;Use Case Name&gt;*</ins>."
+ 
 
 **[⬆ back to top](#table-of-contents)**
 
 
 <a name="Alternative Streams"></a>
-## 6.Alternative Streams
-It is used to describe alternative processing paths outside the main flow that come into play under certain conditions.
+## 6.Alternatif Akış
+Ana akışın dışında, belirli koşullarda devreye giren alternatif işlem yollarını açıklamak için kullanılır.
   <a name="extensions--syntax"></a><a name="7.1"></a>
 
-  - [6.1](#alternative-streams) The extension condition is followed by the colon (:) punctuation and boldfaced:
+  - [6.1](#alternative-streams) Uzantı koşulu iki nokta üst üste (:) noktalama işareti ve kalın yazıyla takip edilir:
 
-    - Positive example: **6a. Input validation rule violation:**
-    - Negative example: 6a. Input validation rule violation.
-    - Negative example: 6a. Input validation rule violation
+- Olumlu örnek: **6a. Giriş doğrulama kuralı ihlali:**
+- Olumsuz örnek: 6a. Giriş doğrulama kuralı ihlali.
+- Olumsuz örnek: 6a. Giriş doğrulama kuralı ihlali
 
-  - [6.2](#alternative-streams) Use the following wording and sentence structure to describe the handling of use case extensions:
+  - [6.2](#alternative-streams) Kullanım durumu uzantılarının işlenmesini tanımlamak için aşağıdaki ifadeleri ve cümle yapısını kullanın:
 
-    - The System alerts the *&lt;Primary Actor&gt;* that an input validation rule is violated and displays the nature and location of the error.
-    - The *&lt;Primary Actor&gt;* corrects the mistake, then returns to step . . . of the normal flow.
-    - The *&lt;Primary Actor&gt;* chooses to terminate the use case.
+- Sistem, *&lt;Primary Actor&gt;*'a bir girdi doğrulama kuralının ihlal edildiğini bildirir ve hatanın niteliğini ve yerini görüntüler.
+- *&lt;Primary Actor&gt;* hatayı düzeltir, ardından normal akışın . . . adımına döner.
+- *&lt;Primary Actor&gt;* kullanım durumunu sonlandırmayı seçer.
 
-    Here is an example of an extension condition and its handling steps:
+  İşte bir uzantı koşulunun ve işleme adımlarının bir örneği:
 
-    **5a. Input validation rule violation:**
+**5a. Giriş doğrulama kuralı ihlali:**
 
-    ​	5a1. The System alerts the Customer that an input validation rule is violated and displays the nature and location of the 	error.
+​ 5a1. Sistem, Müşteriyi bir giriş doğrulama kuralının ihlal edildiği konusunda uyarır ve hatanın niteliğini ve yerini görüntüler.
 
-    ​	5a2. The Customer corrects the mistake and returns to step 6 of the normal flow.
+​ 5a2. Müşteri hatayı düzeltir ve normal akışın 6. adımına döner.
 
 
 **[⬆ back to top](#table-of-contents)**
