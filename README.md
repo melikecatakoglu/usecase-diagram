@@ -55,93 +55,96 @@
 **[⬆ back to top](#table-of-contents)**
 
 <a name="actors"></a>
-## 3.Aktörler
-İlgili  kullanım durumunu gerçekleştirmeye yetkili olan kullanıcı sınıf(lar)ını belirtir..
+## 3.Actor
+An actor specifies a role played by a user or any other system that interacts with the system under development. 
   <a name="actors--name"></a><a name="3.1"></a>
-  - [3.1](#actors--name) Tekil bir öz isim kullanın. Bu özelliği vurgulamak için, oyuncunun adını büyük harfle yazın.
-    - Olumlu örnek: Spirit Team Direktörü *&lt;completes a task&gt;*.
-    - Olumsuz örnek: Ruh takımı yönetmeni *&lt;completes a task&gt;*.
+  - [3.1](#actors--name) Use a singular substantive name. To highlight this characteristic, capitalize the actor's name. Who has the goal?
+    - Positive example: The Spirit Team Director *&lt;completes a task&gt;*.
+    - Negative example: The spirit team director *&lt;completes a task&gt;*.
 
 **[⬆ back to top](#table-of-contents)**
 
 <a name="precondition"></a>
-## 4.Ön Koşullar
-Kullanım durumunun başlaması için gerekli olan başlangıç koşullarını tanımlamak için kullanılır.
-   <a name="precondition"></a><a name="4.1"></a>
-   - [4.1](#precondition) 
-     
-    - Positive example: The user must be logged into the system.
-    
-    - Negative example: The password reset link must not have expired.
-    
-The use cases that must be completed in the prerequisites should be specified.
-         > Rationale: This is incredibly useful for software architecture design and UI design. E.g., "View a *&lt;whatever&gt;*" is related to "Find *&lt;whatever&gt;* s."
+## 4.Precondition
+The precondition names something that you want the SuD to ensure has happened before the use case starts.
+<a name="precondition"></a><a name="4.1"></a>
+- [4.1](#precondition)
+
+- Positive example: The user must log in to the system.
+
+- Negative example: The password reset link must not have expired.
 
 **[⬆ back to top](#table-of-contents)**
 
 <a name="action-steps"></a>
-## 5. Ana AKış
-Kullanım durumunun normal, beklenen işlem adımlarını detaylandırmak için kullanılır. 
+## 5.Action steps
+Use case action steps are sentences that form a use case's main success scenario and extensions. According to [Alistair Cockburn](https://g.co/kgs/Hy777n), a use case action step either describes an interaction between two actors e.g., "The Customer enters address information." or a validation step to protect interest of a stakeholder e.g., "The System validates the credentials." or an internal change to satisfy a stakeholder e.g., "The System deducts amount from balance." Our style guide complements Cockburn's classic 10 action step writing guidelines by recommending proper words and sentence structures.
 
   <a name="action-steps--primary-actor-intention"></a><a name="6.1"></a>
-  - [6.1](#action-steps--primary-actor-intention) Birincil Oyuncunun niyetini tanımlamak için aşağıdaki ifadeleri ve cümle yapısını kullanın :
-    - The *&lt;Primary Actor&gt;* ... işaret eder/seçer/tercih eder/talep eder/denemeye çalışır.
-    - The *&lt;Primary Actor&gt;* sunar . . .
-    - The *&lt;Primary Actor&gt;* görünümler . . .
-    - The *&lt;Primary Actor&gt;* doğrular . . . ve onaylar . . .
-    - The *&lt;Primary Actor&gt;* girer/sağlar/belirtir . . . ve girmeyi bitirdiğini onaylar.
-    - The *&lt;Primary Actor&gt;* girmeye devam ediyor. . .
-    - The *&lt;Primary Actor&gt;* . . . bitirdiğini doğrulayana kadar . . .
-    - The *&lt;Primary Actor&gt;* . . . (örneğin uyarıyı veya ikazı) kabul eder ve devam etmeyi onaylar.
-    - The *&lt;Primary Actor&gt;* uyarıyı/alarmı yok sayar ve devam etmeyi onaylar.
+  - [6.1](#action-steps--primary-actor-intention) Use the following wording and sentence structure to describe the Primary Actor's intention (Corresponds to Cockburn's interaction between two actors):
+    - The *&lt;Primary Actor&gt;* indicates to/selects to/chooses to/requests to/attempts to . . .
+    - The *&lt;Primary Actor&gt;* submits . . .
+    - The *&lt;Primary Actor&gt;* views . . .
+    - The *&lt;Primary Actor&gt;* verifies . . . and confirms . . .
+    - The *&lt;Primary Actor&gt;* enters/provides/specifies . . . and confirms that she has finished entering.
+    - The *&lt;Primary Actor&gt;* continues entering . . .
+    - The *&lt;Primary Actor&gt;* . . . until she confirms that she has finished . . .
+    - The *&lt;Primary Actor&gt;* acknowledges . . . (e.g., the alert or warning) and confirms to continue.
+    - The *&lt;Primary Actor&gt;* ignores the warning/alarm and confirms to continue.
+
+  <a name="action-steps--systen-internal-processing"></a><a name="6.2"></a>
+  - [6.2](#action-steps--systen-internal-processing) Use the following wording and sentence structure to describe the system internal processing (Corresponds to Cockburn's validation step and internal change):
+    - The System validates, saves, records, calculates, updates, deletes, creates, retrieves, triggers . . .
 
   <a name="action-steps--user-feedback"></a><a name="6.6"></a>
-  - [6.2](#action-steps--user-feedback) Kullanıcı her zaman Sistem’e geri bildirimde bulunur.
-   - Olumlu örnek: Kullanıcı, . . .'nin tamamlandığını onaylar.
-   - Olumlu örnek: Sistem . . .'yi işler ve Kullanıcıya . . .'yi gösterir, ardından Kullanıcı bu gösterimi kabul eder.
+  - [6.3](#action-steps--user-feedback) The User always provides feedback to the System.
+    - Positive example: The User confirms that the . . . is complete.
+    - Positive example: The System processes . . . and indicates to the User . . . , then the User acknowledges the indication.
 
   <a name="action-steps--first-step"></a><a name="6.7"></a>
-  - [6.3](#action-steps--first-step) Ana başarı senaryosundaki ilk cümle, kullanım durumunda açıklanan işlevselliğin yürütülmesini etkinleştiren olayı bildirmelidir.
+  - [6.4](#action-steps--first-step) The first sentence in the main success scenario must report the event that activates the execution of the functionality described in the use case.
 
   <a name="action-steps--end-step"></a><a name="6.8"></a>
-  - [6.4](#action-steps--end-step) Bir kullanım örneğinin sonunu açıkça belirtmek için "Kullanım örneği sonlanır." ifadesini kullanın.
+  - [6.5](#action-steps--end-step) Use "Use case ends." to explicitly indicate the end of a use case.
 
+  <a name="action-steps--include-use-case"></a><a name="6.9"></a>
+  - [6.6](#action-steps--include-use-case) When including another use case, use "The User or System *&lt;completes a task&gt;* through <ins>UC-*&lt;ID&gt;*: *&lt;Use Case Name&gt;*</ins>."
  
 
 **[⬆ back to top](#table-of-contents)**
 
 
 <a name="Alternative Streams"></a>
-## 6.Alternatif Akış
-Ana akışın dışında, belirli koşullarda devreye giren alternatif işlem yollarını açıklamak için kullanılır.
-  <a name="extensions--syntax"></a><a name="7.1"></a>
+## 6.Alternative Flow
+It is used to describe alternative processing paths outside the main flow that come into play under certain conditions.
+<a name="extensions--syntax"></a><a name="7.1"></a>
 
-  - [6.1](#alternative-streams) Uzantı koşulu iki nokta üst üste (:) noktalama işareti ve kalın yazıyla takip edilir:
+- [6.1](#alternative-streams) The extension condition is followed by a colon (:) punctuation mark and boldface:
 
-- Olumlu örnek: **6a. Giriş doğrulama kuralı ihlali:**
-- Olumsuz örnek: 6a. Giriş doğrulama kuralı ihlali.
-- Olumsuz örnek: 6a. Giriş doğrulama kuralı ihlali
+- Positive example: **6a. Input validation rule violation:**
+- Negative example: 6a. Input validation rule violation.
+- Negative example: 6a. Input validation rule violation
 
-  - [6.2](#alternative-streams) Kullanım durumu uzantılarının işlenmesini tanımlamak için aşağıdaki ifadeleri ve cümle yapısını kullanın:
+- [6.2](#alternative-streams) Use the following expressions and sentence structure to describe the processing of use case extensions:
 
-- Sistem, *&lt;Primary Actor&gt;*'a bir girdi doğrulama kuralının ihlal edildiğini bildirir ve hatanın niteliğini ve yerini görüntüler.
-- *&lt;Primary Actor&gt;* hatayı düzeltir, ardından normal akışın . . . adımına döner.
-- *&lt;Primary Actor&gt;* kullanım durumunu sonlandırmayı seçer.
+- The system notifies *&lt;Primary Actor&gt;* that an input validation rule has been violated and displays the nature and location of the error.
+- *&lt;Primary Actor&gt;* corrects the error, then returns to step . . . of the normal flow.
+- *&lt;Primary Actor&gt;* chooses to terminate the use case.
 
-  İşte bir uzantı koşulunun ve işleme adımlarının bir örneği:
+Here is an example of an extension condition and processing steps:
 
-**5a. Giriş doğrulama kuralı ihlali:**
+**5a. Input validation rule violation:**
 
-​ 5a1. Sistem, Müşteriyi bir giriş doğrulama kuralının ihlal edildiği konusunda uyarır ve hatanın niteliğini ve yerini görüntüler.
+​ 5a1. The system warns the Client that an input validation rule has been violated and displays the nature and location of the error.
 
-​ 5a2. Müşteri hatayı düzeltir ve normal akışın 6. adımına döner.
+​ 5a2. The Client corrects the error and returns to step 6 of the normal flow.
 
 
 **[⬆ back to top](#table-of-contents)**
 
 <a name="last-condition"></a>
 ## 7. Exceptional Situation
-An extension describes either an exception of a step in the main success scenario or an alternative success scenario.
+It is used to explain the situations that cause the main flow to be interrupted unexpectedly and the actions to be taken in these situations. The Message Code in the table is used for Warning, Error, Notification messages.
   <a name="extensions--syntax"></a><a name="7.1"></a>
 
   - [7.1](#extensions--syntax) The extension condition is followed by the colon (:) punctuation and boldfaced:
@@ -168,7 +171,7 @@ An extension describes either an exception of a step in the main success scenari
 
 <a name="business-rules"></a>
 ## 8. Business rules
-Business rules include corporate policies, government regulations, laws, industry standards, and computational algorithms.
+Used to define specific business rules that should be implemented within the scope of the use case.
   <a name="business-rules--syntax"></a><a name="8.1"></a>
   - [8.1](#business-rules--syntax) Specify related business rules (e.g., security and access control requirements) in the business rules section:
     - Identify any relevant business rules concerning security/access.
@@ -178,5 +181,6 @@ Business rules include corporate policies, government regulations, laws, industr
 
 <a name="notes"></a>
 ## 9. Notes
+Used to share additional information, explanations or details about the use case.
    
 **[⬆ back to top](#table-of-contents)**
