@@ -22,52 +22,36 @@
 <table style="width:100%; text-align: right;">
   <tr>
     <td>KD Kodu</td>
-    <td style="width:60%" colspan="3"></td>
+    <td style="width:100%" colspan="3"></td>
   </tr>
   <tr>
     <td>KD Tanımı</td>
-    <td style="width:60%" colspan="3"></td>
+    <td style="width:100%" colspan="3"></td>
   </tr>
   <tr>
     <td>Aktörler</td>
-    <td style="width:60%" colspan="3"></td>
+    <td style="width:100%" colspan="3"></td>
   </tr>
   <tr>
-    <td>Ön Koşul</td>
-    <td style="width:60%" colspan="3"></td>
-  </tr>
-    <td rowspan="4">Ana Akış</td>
-    <td style="width:60%" colspan="2">Kullanıcı</td>
-    <td>Sistem</td>
+    <td>Ön Koşullar</td>
+    <td style="width:100%" colspan="3"></td>
   </tr>
   </tr>
-    <td style="width:60%" colspan="2">&emsp;</td>
-    <td rowspan="3"></td>
-  </tr>
-  </tr>
-    <td style="width:60%" colspan="2">&emsp;</td>
-  </tr>
-  </tr>
-    <td style="width:60%" colspan="2">&emsp;</td>
-  </tr>
-  </tr>
-    <td>Alternatif Akışlar</td>
-    <td style="width:60%" colspan="2"></td>
+    <td>Ana Akış</td>
+    <td style="width:100%" colspan="2"></td>
     <td></td>
   </tr>
   </tr>
-    <td>İş Kuralları</td>
-    <td style="width:60%" colspan="3"></td>
+    <td>Alternatif Akış</td>
+    <td style="width:100%" colspan="3"></td>
   </tr>
-  </tr>
-    <td rowspan="2">Bilgi Varlıkları</td>
-    <td style="width:60%" colspan="2">Birinci Seviye</td>
-    <td>İkinci Seviye</td>
-  </tr>
-  <tr>
-    <td colspan="2">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-    <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-  </tr>
+   <td>İş Kuralları</td>
+    <td style="width:100%" colspan="3"></td>
+  </tr> 
+   <td>Notlar</td>
+    <td style="width:100%" colspan="3"></td>
+  </tr> 
+
 </table>
 
 **[⬆ back to top](#table-of-contents)**
