@@ -1,12 +1,5 @@
 # A Practical Style Guide and Templates Repository for Writing Effective Use Cases
 
-*An opinionated style guide for use case writing*
-
-Software developers are most effective when handed with a set of consistent and self-contained use cases. However, writing high-quality use cases is a difficult and time-consuming task. Inspired by the success of various coding style guides, we developed a use case writing style guide and a small set of use case templates to slightly constrain the way a use case is written. This style guide will help reduce excessive personal idiosyncrasy in use case writing and give a uniform appearance to the use case written by different requirements engineers so that it is much easier to understand a large set of use cases. 
-
-Instead of overly restricting the use case writing process, the purpose of this style guide is to find a balance between readability and creativity.
-
-> **Note**: The use case templates repository is available at [here](./use-case-templates/README.md). A real project's use case specification following this style guide is available at [here](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit?usp=sharing). Feel free to provide feedback.
 
 ## Table of contents
 
