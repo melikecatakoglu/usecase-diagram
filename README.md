@@ -18,7 +18,7 @@
 
 <a name="generic-use-case-specification-format--syntax"></a><a name="1.1"></a>
 
-  - [1.1](#generic-use-case-specification-format--syntax) We adopt the use case specification format from [Software Requirements (Third Edition)](https://www.microsoftpressstore.com/store/software-requirements-9780735679665) by Karl Wiegers and Joy Beatty with slight modification as a basis for writing use cases.
+  - 
 <table style="width:100%; text-align: right;">
   <tr>
     <td>KD Kodu</td>
