@@ -18,7 +18,6 @@
 
 <a name="generic-use-case-specification-format--syntax"></a><a name="1.1"></a>
 
-  - 
 <table style="width:100%; text-align: right;">
   <tr>
     <td>KD Kodu</td>
