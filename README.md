@@ -56,9 +56,9 @@
 
 <a name="actors"></a>
 ## 3.Actor
-An actor specifies a role played by a user or any other system that interacts with the system under development. 
+An actor specifies a role played by a user or any other system that interacts with the system under development.Who has the goal?
   <a name="actors--name"></a><a name="3.1"></a>
-  - [3.1](#actors--name) Use a singular substantive name. To highlight this characteristic, capitalize the actor's name. Who has the goal?
+  - [3.1](#actors--name) Use a singular substantive name. To highlight this characteristic, capitalize the actor's name.The sentence should begin with <the user>. 
     - Positive example: The Spirit Team Director *&lt;completes a task&gt;*.
     - Negative example: The spirit team director *&lt;completes a task&gt;*.
 
