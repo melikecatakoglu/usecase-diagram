@@ -20,10 +20,6 @@
 
 <table style="width:100%; text-align: right;">
   <tr>
-    <td>KD Kodu</td>
-    <td style="width:100%" colspan="3"></td>
-  </tr>
-  <tr>
     <td>KD Tanımı</td>
     <td style="width:100%" colspan="3"></td>
   </tr>
