@@ -70,22 +70,6 @@
   </tr>
 </table>
 
-
-
-
-**[⬆ back to top](#table-of-contents)**
-
-<a name="use-case-naming"></a>
-## 2. Use case naming
-  <a name="use-case-naming--id"></a><a name="2.1"></a>
-  - [2.1](#use-case-naming--id) Assign a unique ID to each use case.
-    > Rationale: This ensures that you can quickly identify one use case.
-
-  <a name="use-case-naming--verb"></a><a name="2.2"></a>
-  - [2.2](#use-case-naming--verb) Start with a verb with the first letter capitalized and describe the goal of the user.
-    - Positive example: NİV.FG.2.KD.1: Request a SuperFrog appearance for TCU events
-    - Negative example: SuperFrog appearance request management
-
 **[⬆ back to top](#table-of-contents)**
 
 <a name="actors"></a>
@@ -194,38 +178,46 @@ It is used to describe alternative processing paths outside the main flow that c
     ​	5a2. The Customer corrects the mistake and returns to step 6 of the normal flow.
 
 
+**[⬆ back to top](#table-of-contents)**
+
+<a name="last-condition"></a>
+## 7. Exceptional Situation
+An extension describes either an exception of a step in the main success scenario or an alternative success scenario.
+  <a name="extensions--syntax"></a><a name="7.1"></a>
+
+  - [7.1](#extensions--syntax) The extension condition is followed by the colon (:) punctuation and boldfaced:
+
+    - Positive example: **6a. Input validation rule violation:**
+    - Negative example: 6a. Input validation rule violation.
+    - Negative example: 6a. Input validation rule violation
+
+  - [7.2](#extensions--syntax) Use the following wording and sentence structure to describe the handling of use case extensions:
+
+    - The System alerts the *&lt;Primary Actor&gt;* that an input validation rule is violated and displays the nature and location of the error.
+    - The *&lt;Primary Actor&gt;* corrects the mistake, then returns to step . . . of the normal flow.
+    - The *&lt;Primary Actor&gt;* chooses to terminate the use case.
+
+    Here is an example of an extension condition and its handling steps:
+
+    **6a. Input validation rule violation:**
+
+    ​	6a1. The System alerts the Customer that an input validation rule is violated and displays the nature and location of the 	error.
+
+    ​	6a2. The Customer corrects the mistake and returns to step 6 of the normal flow.
+
+**[⬆ back to top](#table-of-contents)**
+
 <a name="business-rules"></a>
-## 7. Business rules
+## 8. Business rules
 Business rules include corporate policies, government regulations, laws, industry standards, and computational algorithms.
-  <a name="business-rules--syntax"></a><a name="7.1"></a>
-  - [7.1](#business-rules--syntax) Specify related business rules (e.g., security and access control requirements) in the business rules section:
+  <a name="business-rules--syntax"></a><a name="8.1"></a>
+  - [8.1](#business-rules--syntax) Specify related business rules (e.g., security and access control requirements) in the business rules section:
     - Identify any relevant business rules concerning security/access.
     - Specify more finer-grained access control.
     - Specify any limitations regarding which individuals, groups, or organizations are permitted to initiate this use case or which data they are permitted to access.
 
-**[⬆ back to top](#table-of-contents)**
 
-<a name="last-condition"></a>
-## 8. Last Condition
-A postcondition for a use case lists the possible states that the system can be in after the use case runs. The system must be in one of these states. A postcondition also specifies the actions that the system takes at the end of the use case, regardless of what happens in the use case.
-  <a name="last-condition"></a><a name="8.1"></a>
-  - [8.1](#last-condition) Use a singular substantive name. To highlight this characteristic, capitalize the actor's name.
-    - Positive example: The system connects the new leave request to the database and the request status is assigned as "Pending". The system sends an automatic notification to notify the administrator.
-    - Negative example: The request cannot be created. The system does not save any data, the current error message is displayed, and the user remains on the form page.
-  <a name="related-use-cases--required"></a><a name="10.1"></a>
-  - [10.1](#related-use-cases--required) Provide related use cases.
-    > Rationale: This is incredibly useful for software architecture design and UI design. E.g., "View a *&lt;whatever&gt;*" is related to "Find *&lt;whatever&gt;* s."
-
-
-**[⬆ back to top](#table-of-contents)**
-
-<a name="information-assets"></a>
-## 9. Information Assets
-Information assets are used to accurately define the data processed by the system in use cases, operations associated with user roles, and security requirements.
-  <a name="first-level"></a><a name="9.1"></a>
-  - [9.1](#first-level) First Level represents the main information entities used in the system (for example: User, Product, Order) and shows which main data entities the use cases are associated with.
-
-  <a name="second-level"></a><a name="3.4"></a>
-  - [9.2](#second-level) The Second Level specifies sub-data or properties of these main information entities (for example: User Types, User Information) and specifies the data details processed in the use cases.
+<a name="notes"></a>
+## 9. Notes
    
 **[⬆ back to top](#table-of-contents)**
