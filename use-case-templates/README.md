@@ -13,10 +13,12 @@
 ## 1. Find *&lt;whatever&gt;* s
 
 <table style="text-align: right">
-      <tr>
-        <td>UC ID and Name:</td>
-        <td style="width: 90%; text-align: left" colspan="3">
-          UC-01: Find <em>&lt;whatever&gt;</em>s
+       <tr>
+        <td>Description:</td>
+        <td style="width: 80%; text-align: left" colspan="3">
+          The User wants to find <em>&lt;whatever&gt;</em>s which match specific
+          criteria, so that she can decide what to do next or other
+          <em>&lt;rationale of this use case&gt;</em>.
         </td>
       </tr>
       <tr>
@@ -102,6 +104,10 @@
         <td style="width: 80%; text-align: left" colspan="3"></td>
       </tr>
       </tr>
+       <tr>
+        <td>Notes:</td>
+        <td style="width: 80%; text-align: left" colspan="3"></td>
+      </tr>
     </table>
 
 See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog Student finds appearance requests](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.lg725m8k6v7b) and [Use Case 15: Spirit Director finds SuperFrog Students](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.ifmhdqaelx3n).
@@ -119,22 +125,8 @@ See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog St
         </td>
       </tr>
       <tr>
-        <td>Created By:</td>
-        <td style="width: 30%; text-align: left"></td>
-        <td>Date Created:</td>
-        <td style="width: 30%; text-align: left"></td>
-      </tr>
-      <tr>
         <td>Primary Actor:</td>
         <td style="width: 30%; text-align: left"></td>
-        <td>Secondary Actors:</td>
-        <td style="width: 30%; text-align: left"></td>
-      </tr>
-      <tr>
-        <td>Trigger:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          The User indicates to view the details of a <em>&lt;whatever&gt;</em>.
-        </td>
       </tr>
       <tr>
         <td>Description:</td>
@@ -152,11 +144,17 @@ See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog St
           use case.
         </td>
       </tr>
-      <tr>
-        <td>Postconditions:</td>
+       <tr>
+        <td>Related Use Cases:</td>
         <td style="width: 80%; text-align: left" colspan="3">
-          POST-1. The details of the specified <em>&lt;whatever&gt;</em> are
-          displayed to the User.
+          UC-01: Find <em>&lt;whatever&gt;</em>s <br/>
+          The User can perform other actions after this use case. After this use case succeeds, the User may 		   take any of the following actions on this <em>&lt;whatever&gt;</em>:
+          <ul>
+            <li>UC-04: Change a <em>&lt;whatever&gt;</em></li>
+            <li>UC-05: Delete a <em>&lt;whatever&gt;</em></li>
+            <li>UC-: View a <em>&lt;whatever2&gt;</em></li>
+            <li>UC-: View a <em>&lt;whatever3&gt;</em></li>
+          </ul>
         </td>
       </tr>
       <tr>
@@ -193,16 +191,6 @@ See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog St
         <td style="width: 80%; text-align: left" colspan="3"></td>
       </tr>
       <tr>
-        <td>Priority:</td>
-        <td style="width: 80%; text-align: left" colspan="3">High</td>
-      </tr>
-      <tr>
-        <td>Frequency of Use:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          Approximately *** user, average of *** usages per week.
-        </td>
-      </tr>
-      <tr>
         <td>Business Rules:</td>
         <td style="width: 80%; text-align: left" colspan="3">
           Security/access concerns
@@ -212,54 +200,10 @@ See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog St
         </td>
       </tr>
       <tr>
-        <td>Associated Information:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          <table style="width: 100%">
-            <tr>
-              <th>Property name</th>
-              <th>Data type</th>
-              <th>Editability</th>
-              <th>Security/access concerns</th>
-              <th>Reference to glossary</th>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-             <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td>Related Use Cases:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          UC-01: Find <em>&lt;whatever&gt;</em>s <br/>
-          The User can perform other actions after this use case. After this use case succeeds, the User may 		   take any of the following actions on this <em>&lt;whatever&gt;</em>:
-          <ul>
-            <li>UC-04: Change a <em>&lt;whatever&gt;</em></li>
-            <li>UC-05: Delete a <em>&lt;whatever&gt;</em></li>
-            <li>UC-: View a <em>&lt;whatever2&gt;</em></li>
-            <li>UC-: View a <em>&lt;whatever3&gt;</em></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>Assumptions:</td>
+        <td>Notes:</td>
         <td style="width: 80%; text-align: left" colspan="3"></td>
       </tr>
-      <tr>
-        <td>Open Issues:</td>
-        <td style="width: 80%; text-align: left" colspan="3"></td>
-      </tr>
+      
 </table>
 
 See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog Student views an appearance request](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.dsnj8yei2233) and [Use Case 16: Spirit Director views a SuperFrog Student account](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.19z0lulk43dd).
@@ -271,36 +215,16 @@ See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog St
 ## 3. Create a *&lt;whatever&gt;*
 
 <table style="text-align: right">
-  <tr>
-    <td>UC ID and Name:</td>
-    <td style="width: 90%; text-align: left" colspan="3">
-      UC-03: Create a <em>&lt;whatever&gt;</em>
-    </td>
-  </tr>
-  <tr>
-    <td>Created By:</td>
-    <td style="width: 30%; text-align: left"></td>
-    <td>Date Created:</td>
-    <td style="width: 30%; text-align: left"></td>
-  </tr>
-  <tr>
-    <td>Primary Actor:</td>
-    <td style="width: 30%; text-align: left"></td>
-    <td>Secondary Actors:</td>
-    <td style="width: 30%; text-align: left"></td>
-  </tr>
-  <tr>
-    <td>Trigger:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      The User indicates to create a new <em>&lt;whatever&gt;</em>.
-    </td>
-  </tr>
-  <tr>
+    <tr>
     <td>Description:</td>
     <td style="width: 80%; text-align: left" colspan="3">
       The User wants to create a new <em>&lt;whatever&gt;</em>, so that
       <em>&lt;rationale of this use case&gt;</em>.
     </td>
+  </tr>
+  <tr>
+    <td>Primary Actor:</td>
+    <td style="width: 30%; text-align: left"></td>
   </tr>
   <tr>
     <td>Preconditions:</td>
@@ -313,10 +237,11 @@ See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog St
       first.
     </td>
   </tr>
-  <tr>
-    <td>Postconditions:</td>
+        <tr>
+    <td>Related Use Cases:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      POST-1. The new <em>&lt;whatever&gt;</em> is stored in the System.
+        The User may first choose to <ins>UC-01: Find <em>&lt;whatever&gt;</em>s</ins> but
+      cannot find any, then decide to create one.
     </td>
   </tr>
   <tr>
@@ -385,16 +310,6 @@ See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog St
     </td>
   </tr>
   <tr>
-    <td>Priority:</td>
-    <td style="width: 80%; text-align: left" colspan="3">High</td>
-  </tr>
-  <tr>
-    <td>Frequency of Use:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      Approximately *** user, average of *** usages per week.
-    </td>
-  </tr>
-  <tr>
     <td>Business Rules:</td>
     <td style="width: 80%; text-align: left" colspan="3">
       Security/access concerns
@@ -403,127 +318,10 @@ See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog St
       </ul>
     </td>
   </tr>
-  <tr>
-    <td>Associated Information:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      <table style="width: 100%">
-        <tr>
-          <th>Property name</th>
-          <th>Data type</th>
-          <th>Editability</th>
-          <th>Validatoin rule</th>
-          <th>Effect of change</th>
-          <th>Reference to glossary</th>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </table>
-      Column "Effect of change" shows consequences of modification other
-      than saving. <br />
-      Duplication detection rules:
-      <ul>
-        <li>
-          Identifiers (A set of properties to prevent duplicate creation)
-        </li>
-      </ul>
-      Notification:
-      <ul>
-        <li>Specify who to notify and what format</li>
-      </ul>
-      A basic set of commonly used constraints: <br />
-      Checks that the input is not empty (empty means trimmed input length
-      is 0). <br />
-      Date:
-      <ul>
-        <li>Checks whether the input date is in a predefined format</li>
-        <li>Checks whether the input date is in the future</li>
-        <li>
-          Checks whether the input date is in the present or in the future
-        </li>
-        <li>Checks whether the input date is in the past</li>
-        <li>
-          Checks whether the input date is in the past or in the present
-        </li>
-        <li>Checks whether the input date is in between a date range</li>
-      </ul>
-      Numeric value:
-      <ul>
-        <li>
-          Checks whether the input value is less than or equal to the
-          specified maximum
-        </li>
-        <li>
-          Checks whether the input value is higher than or equal to the
-          specified minimum
-        </li>
-        <li>
-          Checks whether the input value is a number having up to certain
-          number of digits and certain number of fractional digits
-        </li>
-        <li>
-          Checks whether the input value is strictly positive. Zero values
-          are considered invalid
-        </li>
-        <li>Checks whether the input value is positive or zero</li>
-        <li>
-          Checks whether the input value is strictly negative. Zero values
-          are considered invalid
-        </li>
-        <li>Checks whether the input value is negative or zero</li>
-        <li>
-          Checks whether the input value is between min and max (inclusive)
-        </li>
-      </ul>
-      Text:
-      <ul>
-        <li>
-          Checks whether the specified character sequence's length is
-          between min and max (inclusive)
-        </li>
-        <li>
-          Checks whether the specified character sequence is a valid email
-          address
-        </li>
-        <li>
-          Checks whether the specified character sequence is a valid phone
-          number
-        </li>
-        <li>
-          Checks whether the specified string matches the provided regular
-          expression
-        </li>
-      </ul>
-      The User shall be able to cancel the use case at any time prior to
-      submitting it.
-    </td>
-  </tr>
-  <tr>
-    <td>Related Use Cases:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-        The User may first choose to <ins>UC-01: Find <em>&lt;whatever&gt;</em>s</ins> but
-      cannot find any, then decide to create one.
-    </td>
-  </tr>
-  <tr>
-    <td>Assumptions:</td>
-    <td style="width: 80%; text-align: left" colspan="3"></td>
-  </tr>
-  <tr>
-    <td>Open Issues:</td>
-    <td style="width: 80%; text-align: left" colspan="3"></td>
-  </tr>
+ <tr>
+        <td>Notes:</td>
+        <td style="width: 80%; text-align: left" colspan="3"></td>
+      </tr>
 </table>
 
 
@@ -541,23 +339,8 @@ See examples that adopt this template: [Use Case 1: Customer requests a SuperFro
     </td>
   </tr>
   <tr>
-    <td>Created By:</td>
-    <td style="width: 30%; text-align: left"></td>
-    <td>Date Created:</td>
-    <td style="width: 30%; text-align: left"></td>
-  </tr>
-  <tr>
     <td>Primary Actor:</td>
     <td style="width: 30%; text-align: left"></td>
-    <td>Secondary Actors:</td>
-    <td style="width: 30%; text-align: left"></td>
-  </tr>
-  <tr>
-    <td>Trigger:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      The User indicates to change the details of an existing
-      <em>&lt;whatever&gt;</em>.
-    </td>
   </tr>
   <tr>
     <td>Description:</td>
@@ -576,11 +359,17 @@ See examples that adopt this template: [Use Case 1: Customer requests a SuperFro
       PRE-3. <em>&lt;whatever&gt;</em> can be changed after the creation. <br />
     </td>
   </tr>
-  <tr>
-    <td>Postconditions:</td>
+       <tr>
+    <td>Related Use Cases:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      POST-1. Changes made to the <em>&lt;whatever&gt;</em> are stored in
-      the System.
+      The User may first choose to UC-02: View a <em>&lt;whatever&gt;</em>,
+      then decide to change one. <br />
+      <em>[If the "Details" table contains an item which itself is a complex
+      object (e.g., list), refer to UC: change an appearance. Similarly, in
+      UC: change an appearance, refer to the UC: change a SuperFrog Student.
+      <br />
+      So a user may not change the detailed appearance in this use case, if a user
+      wants to do that, she will need to go to UC-04: change an appearance.]</em>
     </td>
   </tr>
   <tr>
@@ -650,16 +439,6 @@ See examples that adopt this template: [Use Case 1: Customer requests a SuperFro
     </td>
   </tr>
   <tr>
-    <td>Priority:</td>
-    <td style="width: 80%; text-align: left" colspan="3">High</td>
-  </tr>
-  <tr>
-    <td>Frequency of Use:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      Approximately *** user, average of *** usages per week.
-    </td>
-  </tr>
-  <tr>
     <td>Business Rules:</td>
     <td style="width: 80%; text-align: left" colspan="3">
       Security/access concerns
@@ -668,130 +447,10 @@ See examples that adopt this template: [Use Case 1: Customer requests a SuperFro
       </ul>
     </td>
   </tr>
-  <tr>
-    <td>Associated Information:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      <table style="width: 100%">
-        <tr>
-          <th>Property name</th>
-          <th>Data type</th>
-          <th>Editability</th>
-          <th>Validatoin rule</th>
-          <th>Effect of change</th>
-          <th>Warning</th>
-          <th>Reference to glossary</th>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </table>
-      Column "Effect of change" shows consequences of modification other
-      than saving. <br />
-      Notification:
-      <ul>
-        <li>Specify who to notify and what format</li>
-      </ul>
-      A basic set of commonly used constraints: <br />
-      Checks that the input is not empty (empty means trimmed input length
-      is 0). <br />
-      Date:
-      <ul>
-        <li>Checks whether the input date is in a predefined format</li>
-        <li>Checks whether the input date is in the future</li>
-        <li>
-          Checks whether the input date is in the present or in the future
-        </li>
-        <li>Checks whether the input date is in the past</li>
-        <li>
-          Checks whether the input date is in the past or in the present
-        </li>
-        <li>Checks whether the input date is in between a date range</li>
-      </ul>
-      Numeric value:
-      <ul>
-        <li>
-          Checks whether the input value is less than or equal to the
-          specified maximum
-        </li>
-        <li>
-          Checks whether the input value is higher than or equal to the
-          specified minimum
-        </li>
-        <li>
-          Checks whether the input value is a number having up to certain
-          number of digits and certain number of fractional digits
-        </li>
-        <li>
-          Checks whether the input value is strictly positive. Zero values
-          are considered invalid
-        </li>
-        <li>Checks whether the input value is positive or zero</li>
-        <li>
-          Checks whether the input value is strictly negative. Zero values
-          are considered invalid
-        </li>
-        <li>Checks whether the input value is negative or zero</li>
-        <li>
-          Checks whether the input value is between min and max (inclusive)
-        </li>
-      </ul>
-      Text:
-      <ul>
-        <li>
-          Checks whether the specified character sequence's length is
-          between min and max (inclusive)
-        </li>
-        <li>
-          Checks whether the specified character sequence is a valid email
-          address
-        </li>
-        <li>
-          Checks whether the specified character sequence is a valid phone
-          number
-        </li>
-        <li>
-          Checks whether the specified string matches the provided regular
-          expression
-        </li>
-      </ul>
-      The User shall be able to cancel the use case at any time prior to
-      submitting it.
-    </td>
-  </tr>
-  <tr>
-    <td>Related Use Cases:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      The User may first choose to UC-02: View a <em>&lt;whatever&gt;</em>,
-      then decide to change one. <br />
-      <em>[If the "Details" table contains an item which itself is a complex
-      object (e.g., list), refer to UC: change an appearance. Similarly, in
-      UC: change an appearance, refer to the UC: change a SuperFrog Student.
-      <br />
-      So a user may not change the detailed appearance in this use case, if a user
-      wants to do that, she will need to go to UC-04: change an appearance.]</em>
-    </td>
-  </tr>
-  <tr>
-    <td>Assumptions:</td>
-    <td style="width: 80%; text-align: left" colspan="3"></td>
-  </tr>
-  <tr>
-    <td>Open Issues:</td>
-    <td style="width: 80%; text-align: left" colspan="3"></td>
-  </tr>
+       <tr>
+        <td>Notes:</td>
+        <td style="width: 80%; text-align: left" colspan="3"></td>
+      </tr>
 </table>
 
 
@@ -809,23 +468,8 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
     </td>
   </tr>
   <tr>
-    <td>Created By:</td>
-    <td style="width: 30%; text-align: left"></td>
-    <td>Date Created:</td>
-    <td style="width: 30%; text-align: left"></td>
-  </tr>
-  <tr>
     <td>Primary Actor:</td>
     <td style="width: 30%; text-align: left"></td>
-    <td>Secondary Actors:</td>
-    <td style="width: 30%; text-align: left"></td>
-  </tr>
-  <tr>
-    <td>Trigger:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      The User indicates to delete an existing
-      <em>&lt;whatever&gt;</em>.
-    </td>
   </tr>
   <tr>
     <td>Description:</td>
@@ -844,14 +488,18 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
       PRE-3. <em>&lt;whatever&gt;</em> can be deleted after the creation.
     </td>
   </tr>
-  <tr>
-    <td>Postconditions:</td>
+       <tr>
+    <td>Related Use Cases:</td>
     <td style="width: 80%; text-align: left" colspan="3">
-      POST-1. The <em>&lt;whatever&gt;</em> is deleted from the System
-      according to the "Deletion strategy" defined in the Associated Information of
-      this use case.
+        The User may first choose to <ins>UC-02: View a <em>&lt;whatever&gt;</em></ins>,
+      then decide to delete one.<br />
     </td>
   </tr>
+  <tr>
+    <td>Assumptions:</td>
+    <td style="width: 80%; text-align: left" colspan="3"></td>
+  </tr>
+  <tr>
   <tr>
     <td>Main Success Scenario:</td>
     <td style="width: 80%; text-align: left" colspan="3">
@@ -907,16 +555,6 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
     </td>
   </tr>
   <tr>
-    <td>Priority:</td>
-    <td style="width: 80%; text-align: left" colspan="3">High</td>
-  </tr>
-  <tr>
-    <td>Frequency of Use:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      Approximately *** user, average of *** usages per week.
-    </td>
-  </tr>
-  <tr>
     <td>Business Rules:</td>
     <td style="width: 80%; text-align: left" colspan="3">
       Security/access concerns
@@ -925,106 +563,10 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
       </ul>
     </td>
   </tr>
-  <tr>
-    <td>Associated Information:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      Deletion strategy:
-      <em>[<ul>
-        <li>
-          Physical delete: permanently remove the business domain object
-          from the System (cannot be recovered)
-        </li>
-        <li>
-          Move deleted object including any related objects that are being
-          deleted along with it from the System to an archive or audit
-          database
-        </li>
-        <li>
-          Logic delete: mark a business domain object as "deleted" but still
-          keep it in the live system, the deleted object will not be visible
-          or available to all normal functions and users. Logically,
-          "deleted" objects are not supposed to be "recovered" i.e., they
-          will never be used again. Only special administrative users with
-          privileged access can view them (Langlands, 2010)
-        </li>
-          </ul>]</em> <br/>
-      Referring objects handling strategy: <br />
-      Specify what action to take in respect of the related objects of
-      <em>&lt;whatever&gt;</em> <br />
-      <ul>
-        <li>
-          In case of composition:
-          <ul>
-            <li>
-              Dependent objects are deleted along with
-              <em>&lt;whatever&gt;</em>, aka cascading deletion
-            </li>
-            <li>
-              The User needs to first delete dependent objects and then
-              resume this use case
-            </li>
-          </ul>
-        </li>
-        <li>
-          In case of regular association:
-          <ul>
-            <li>TBD</li>
-          </ul>
-        </li>
-      </ul>
-      <em>[Violation is more serious than warning. Violation will prevent the
-      deletion and just terminate the use case, while the user can choose to
-      ignore a warning and continue the use case. Please also list alert
-       messages for each violation and warning.]</em> <br />
-      Data integrity and deletion rules: <br />
-      <ul>
-        <li>
-          Violation 1: <em>&lt;Detailed violation rule&gt;</em> See Business
-          Rules of this use case
-        </li>
-        <li>
-          Violation 2: <em>&lt;Detailed violation rule&gt;</em> See Business
-          Rules of this use case
-        </li>
-        <li>...</li>
-        <li>
-          Referring objects handling strategy:
-          <ul>
-            <li>
-              Warning 1: Dependent objects will be deleted along with
-              <em>&lt;whatever&gt;</em>.
-            </li>
-            <li>
-              Warning 2: Due to deletion, the referring objects will be left
-              in limbo.
-            </li>
-            <li>...</li>
-          </ul>
-        </li>
-      </ul>
-      Notification: <br />
-      <ul>
-        <li>Specify who to notify and what format</li>
-      </ul>
-      The User shall be able to cancel the use case at any time prior to
-      submitting it.
-    </td>
-  </tr>
-  <tr>
-    <td>Related Use Cases:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-        The User may first choose to <ins>UC-02: View a <em>&lt;whatever&gt;</em></ins>,
-      then decide to delete one.<br />
-    </td>
-  </tr>
-  <tr>
-    <td>Assumptions:</td>
-    <td style="width: 80%; text-align: left" colspan="3"></td>
-  </tr>
-  <tr>
-    <td>Open Issues:</td>
-    <td style="width: 80%; text-align: left" colspan="3"></td>
-  </tr>
+       <tr>
+        <td>Notes:</td>
+        <td style="width: 80%; text-align: left" colspan="3"></td>
+      </tr>
 </table>
 
 
@@ -1040,25 +582,9 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
     </td>
   </tr>
   <tr>
-    <td>Created By:</td>
-    <td style="width: 30%; text-align: left"></td>
-    <td>Date Created:</td>
-    <td style="width: 30%; text-align: left"></td>
-  </tr>
-  <tr>
     <td>Primary Actor:</td>
       <td style="width: 30%; text-align: left"> <em>[Users who will generate the report or use it to make decisions]</em></td>
-    <td>Secondary Actors:</td>
-    <td style="width: 30%; text-align: left">
         Report recipient(s) <em>[Users who will generate the report or use it to make decisions]</em>
-    </td>
-  </tr>
-  <tr>
-    <td>Trigger:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      The User indicates to generate a <em>&lt;report type&gt;</em> report
-      (on demand). <em>[If automatically, specify the triggering conditions or
-        events and frequency (daily, weekly, monthly etc.) here.]</em>
     </td>
   </tr>
   <tr>
@@ -1080,13 +606,11 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
       Rules of this use case.
     </td>
   </tr>
-  <tr>
-    <td>Postconditions:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      POST-1. The details of the report are returned and displayed to the
-      User.
-    </td>
+       <tr>
+    <td>Related Use Cases:</td>
+    <td style="width: 80%; text-align: left" colspan="3"></td>
   </tr>
+  <tr>
   <tr>
     <td>Main Success Scenario:</td>
     <td style="width: 80%; text-align: left" colspan="3">
@@ -1151,16 +675,6 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
     </td>
   </tr>
   <tr>
-    <td>Priority:</td>
-    <td style="width: 80%; text-align: left" colspan="3">High</td>
-  </tr>
-  <tr>
-    <td>Frequency of Use:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      Approximately *** user, average of *** usages per week.
-    </td>
-  </tr>
-  <tr>
     <td>Business Rules:</td>
     <td style="width: 80%; text-align: left" colspan="3">
       Security/access concerns <br />
@@ -1171,60 +685,10 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
     </td>
   </tr>
   <tr>
-    <td>Associated Information:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      Report generating parameters:
-      <ul>
-        <li>Report title</li>
-        <li>
-          Data source: The applications, files, databases, or data
-          warehouses from which data will be extracted
-        </li>
-        <li>
-          Data selection criteria (logic for what data to select and what to
-          exclude)
-        </li>
-        <li>Columns/fields/properties to include</li>
-        <li>
-          Filter criteria used to restrict the report query prior to running
-          the report
-        </li>
-        <li>Report visualization (table, charts, graph)</li>
-        <li>Sorting criteria</li>
-        <li>Pagination criteria if table visualization is selected</li>
-        <li>
-          Disposition of the report after it is generated. The options
-          available will be displayed in the System, sent to a recipient,
-          downloaded to local disk, printed, stored somewhere for future
-          retrieval.
-        </li>
-        <li>
-          Format of the generated report. The options available will be PDF,
-          CSV, RTF, and HTML.
-        </li>
-      </ul>
-      Report generating algorithm: <br />
-      <em>[Specify how the report is generated based on user's input parameter.
-      Specify calculations or other transformations that are performed to
-          generate the data displayed.]</em>
-    </td>
-  </tr>
-  <tr>
-    <td>Related Use Cases:</td>
-    <td style="width: 80%; text-align: left" colspan="3"></td>
-  </tr>
-  <tr>
-    <td>Assumptions:</td>
-    <td style="width: 80%; text-align: left" colspan="3">
-      If the job is too large, the System prompts the User to select to run
-      the report immediately or to schedule a time for it to run. The System
-      will display a projected run time, based on historical run times.
-    </td>
-  </tr>
-  <tr>
-    <td>Open Issues:</td>
-    <td style="width: 80%; text-align: left" colspan="3"></td>
-  </tr>
+        <td>Notes:</td>
+        <td style="width: 80%; text-align: left" colspan="3"></td>
+      </tr>
+ 
 </table>
 
 
