@@ -20,45 +20,33 @@
         </td>
       </tr>
       <tr>
-        <td>Created By:</td>
-        <td style="width: 30%; text-align: left"></td>
-        <td>Date Created:</td>
-        <td style="width: 30%; text-align: left"></td>
-      </tr>
-      <tr>
         <td>Primary Actor:</td>
         <td style="width: 30%; text-align: left"></td>
-        <td>Secondary Actors:</td>
-        <td style="width: 30%; text-align: left"></td>
-      </tr>
-      <tr>
-        <td>Trigger:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          The User indicates to find <em>&lt;whatever&gt;</em>s.
-        </td>
-      </tr>
-      <tr>
-        <td>Description:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          The User wants to find <em>&lt;whatever&gt;</em>s which match specific
-          criteria, so that she can decide what to do next or other
-          <em>&lt;rationale of this use case&gt;</em>.
-        </td>
       </tr>
       <tr>
         <td>Preconditions:</td>
         <td style="width: 80%; text-align: left" colspan="3">
           PRE-1. The User is logged into the System.
         </td>
+             <tr>
       </tr>
-      <tr>
-        <td>Postconditions:</td>
+       <tr>
+        <td>Related Use Cases:</td>
         <td style="width: 80%; text-align: left" colspan="3">
-          POST-1. A list of matching <em>&lt;whatever&gt;</em>s is returned and
-          displayed to the User. It is possible that the list is empty.
+          The User can perform other actions after this use case. After this use
+          case succeeds, the User may select any of the displayed
+          <em>&lt;whatever&gt;</em>s and take any of the following actions on
+          the selected item:
+          <ul>
+            <li>UC-02: View a <em>&lt;whatever&gt;</em></li>
+            <li>UC-03: Create a <em>&lt;whatever&gt;</em></li>
+            <li>UC-04: Change a <em>&lt;whatever&gt;</em></li>
+            <li>UC-05: Delete a <em>&lt;whatever&gt;</em></li>
+          </ul>
         </td>
-      </tr>
-      <tr>
+      </tr    
+      </tr
+             <tr>
         <td>Main Success Scenario:</td>
         <td style="width: 80%; text-align: left" colspan="3">
           <ol>
@@ -110,104 +98,9 @@
         </td>
       </tr>
       <tr>
-        <td>Priority:</td>
-        <td style="width: 80%; text-align: left" colspan="3">High</td>
-      </tr>
-      <tr>
-        <td>Frequency of Use:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          Approximately *** user, average of *** usages per week.
-        </td>
-      </tr>
-      <tr>
         <td>Business Rules:</td>
         <td style="width: 80%; text-align: left" colspan="3"></td>
       </tr>
-      <tr>
-        <td>Associated Information:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          Search criteria (aka search fields, search attributes/properties,
-          search details, searchable qualities):
-          <table style="width: 100%">
-            <tr>
-              <th>Search property name</th>
-              <th>Data type</th>
-              <th>Validation rule</th>
-              <th>Security/access concerns</th>
-              <th>Reference to glossary</th>
-            </tr>
-            <tr>
-              <td>First name</td>
-              <td>String</td>
-              <td>Required</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Last name</td>
-              <td>String</td>
-              <td>Required</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Phone number</td>
-              <td>String</td>
-              <td>Required, (999) 999-9999 format</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Physical address</td>
-              <td>String</td>
-              <td>
-                Required, valid US address format (street, suite/room/floor,
-                city, state, postal code)
-              </td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Email</td>
-              <td>String</td>
-              <td>Required, valid email</td>
-              <td></td>
-              <td></td>
-            </tr>
-          </table>
-          Search results display strategy (specify which properties to display
-          for each matching <em>&lt;whatever&gt;</em>):
-          <ul>
-            <li>TBD</li>
-          </ul>
-          Sort criteria:
-          <ul>
-            <li>TBD</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>Related Use Cases:</td>
-        <td style="width: 80%; text-align: left" colspan="3">
-          The User can perform other actions after this use case. After this use
-          case succeeds, the User may select any of the displayed
-          <em>&lt;whatever&gt;</em>s and take any of the following actions on
-          the selected item:
-          <ul>
-            <li>UC-02: View a <em>&lt;whatever&gt;</em></li>
-            <li>UC-03: Create a <em>&lt;whatever&gt;</em></li>
-            <li>UC-04: Change a <em>&lt;whatever&gt;</em></li>
-            <li>UC-05: Delete a <em>&lt;whatever&gt;</em></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>Assumptions:</td>
-        <td style="width: 80%; text-align: left" colspan="3"></td>
-      </tr>
-      <tr>
-        <td>Open Issues:</td>
-        <td style="width: 80%; text-align: left" colspan="3"></td>
       </tr>
     </table>
 
