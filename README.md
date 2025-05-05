@@ -73,11 +73,11 @@ The precondition names something that you want the SuD to ensure has happened be
 - Positive example: The user must log in to the system.
 - Negative example: The password reset link must not have expired.
 
-- Related use cases should be added after the prerequisites.
--   <a name="related-use-cases--required"></a><a name="10.1"></a>
-  - [10.1](#related-use-cases--required) Provide related use cases.
-    > Rationale: This is incredibly useful for software architecture design and UI design. E.g., "View a *&lt;whatever&gt;*" is related to "Find *&lt;whatever&gt;* s."
-
+- Related use cases should be added after the precondition.
+- <a name="related-use-cases"></a>
+  <a name="related-use-cases--required"></a><a name="4.2"></a>
+  - [4.2](#related-use-cases--required) Provide related use cases.
+    > Rationale: This is incredibly useful for software architecture design and UI design. E.g., "View a *&lt;whatever&gt;*" is related to "Find *&lt;whatever&gt;* s."ware architecture design and UI design. E.g., "View a *&lt;whatever&gt;*" is related to "Find *&lt;whatever&gt;* s."
 **[⬆ back to top](#table-of-contents)**
 
 <a name="action-steps"></a>
