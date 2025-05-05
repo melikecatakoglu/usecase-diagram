@@ -110,7 +110,6 @@
       </tr>
     </table>
 
-See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog Student finds appearance requests](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.lg725m8k6v7b) and [Use Case 15: Spirit Director finds SuperFrog Students](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.ifmhdqaelx3n).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -206,7 +205,6 @@ See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog St
       
 </table>
 
-See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog Student views an appearance request](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.dsnj8yei2233) and [Use Case 16: Spirit Director views a SuperFrog Student account](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.19z0lulk43dd).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -325,7 +323,6 @@ See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog St
 </table>
 
 
-See examples that adopt this template: [Use Case 1: Customer requests a SuperFrog appearance](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.roq29be23wgv) and [Use Case 13: Spirit Director creates account for a new SuperFrog Student](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.q9b056hngmki).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -454,7 +451,6 @@ See examples that adopt this template: [Use Case 1: Customer requests a SuperFro
 </table>
 
 
-See examples that adopt this template: [Use Case 2: Customer edits request details](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.40n3tdbn3iga), [Use Case 8: Spirit Director edits basic information of a request](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.idpfgklhh6ju), and [Use Case 20: SuperFrog Student edits profile information](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.rapr7stw6a0b).
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -692,7 +688,6 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
 </table>
 
 
-See examples that adopt this template: [Use Case 18: Spirit Director generates TCU Honorarium (Payment for services) Request Forms](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.ff9ddug0ipbh) and [Use Case 19: Spirit Director generates a SuperFrog Students performance report](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit#bookmark=id.gswvt5fhug5k).
 
 **[⬆ back to top](#table-of-contents)**
 
