@@ -27,7 +27,7 @@
       </tr>
       <tr>
         <td>Primary Actor:</td>
-        <td style="width: 30%; text-align: left">User</td>
+        <td style="width: 30%; text-align: left"></td>
         <td>Secondary Actors:</td>
         <td style="width: 30%; text-align: left"></td>
       </tr>
@@ -233,7 +233,7 @@ See examples that adopt this template: [Use Case 6: Spirit Director/SuperFrog St
       </tr>
       <tr>
         <td>Primary Actor:</td>
-        <td style="width: 30%; text-align: left">User</td>
+        <td style="width: 30%; text-align: left"></td>
         <td>Secondary Actors:</td>
         <td style="width: 30%; text-align: left"></td>
       </tr>
@@ -392,7 +392,7 @@ See examples that adopt this template: [Use Case 7: Spirit Director/SuperFrog St
   </tr>
   <tr>
     <td>Primary Actor:</td>
-    <td style="width: 30%; text-align: left">User</td>
+    <td style="width: 30%; text-align: left"></td>
     <td>Secondary Actors:</td>
     <td style="width: 30%; text-align: left"></td>
   </tr>
@@ -655,7 +655,7 @@ See examples that adopt this template: [Use Case 1: Customer requests a SuperFro
   </tr>
   <tr>
     <td>Primary Actor:</td>
-    <td style="width: 30%; text-align: left">User</td>
+    <td style="width: 30%; text-align: left"></td>
     <td>Secondary Actors:</td>
     <td style="width: 30%; text-align: left"></td>
   </tr>
@@ -923,7 +923,7 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
   </tr>
   <tr>
     <td>Primary Actor:</td>
-    <td style="width: 30%; text-align: left">User</td>
+    <td style="width: 30%; text-align: left"></td>
     <td>Secondary Actors:</td>
     <td style="width: 30%; text-align: left"></td>
   </tr>
@@ -1154,7 +1154,7 @@ See examples that adopt this template: [Use Case 2: Customer edits request detai
   </tr>
   <tr>
     <td>Primary Actor:</td>
-      <td style="width: 30%; text-align: left">User <em>[Users who will generate the report or use it to make decisions]</em></td>
+      <td style="width: 30%; text-align: left"> <em>[Users who will generate the report or use it to make decisions]</em></td>
     <td>Secondary Actors:</td>
     <td style="width: 30%; text-align: left">
         Report recipient(s) <em>[Users who will generate the report or use it to make decisions]</em>
