@@ -1,10 +1,3 @@
-# Scaffolding a Use Case with a Use Case Templates Repository
-
-Besides the practical use case writing style guide introduced in [here](../README.md), we also developed a use case templates repository, where commonly used use cases are archived for reuse in different domain contexts. These use case templates are not meant to constrain the way a use case is written but to provide a starting point for requirements engineers. Think of them as intermediate good or semi-finished products, which need to be completed by requirements engineers to obtain a full-fledged use case specification.
-
-An easy-to-copy-and-paste version of this repository is available at [Google Docs](https://docs.google.com/document/d/1mdpekQ3sbKstbhFWDMD8-wzQuPRi-Y46t9z1XhcQ2BI/edit?usp=sharing). A real project's use case specification following the style guide and using the templates repository is available at [here](https://docs.google.com/document/d/1PBDgqCbMPpyrAWZnob_OxDecOPoyyOtV_sJeeObh62E/edit?usp=sharing). Feel free to provide feedback.
-
-> **Note**: A *&lt;whatever&gt;* as postulated by Alistair Cockburn represents an important business object. A requirements engineer only needs to substitute a concrete business object for *&lt;whatever&gt;*. Text enclosed in square brackets ''[]" and displayed in italics is included to provide guidance to the author and should be deleted before publishing the use case.
 
 ## Table of contents
 
