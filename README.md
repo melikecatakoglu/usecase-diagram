@@ -66,17 +66,16 @@ An actor specifies a role played by a user or any other system that interacts wi
 
 <a name="precondition"></a>
 ## 4.Precondition
-The precondition names something that you want the SuD to ensure has happened before the use case starts. Preconditions: List what must be true before the use case starts.
+Preconditions: List what must be true before the use case starts.The preconditions that the user must fulfill in order to perform the action defined in the KD must be defined.The KDs that must be completed to complete this KD are listed at the bottom after the prerequisites.
 <a name="precondition"></a><a name="4.1"></a>
 - [4.1](#precondition)
 
-- Preconditions: User is logged in; items are in the cart.
-
-- Related use cases should be added after the precondition.
-- <a name="related-use-cases"></a>
-  <a name="related-use-cases--required"></a><a name="4.2"></a>
-  - [4.2](#related-use-cases--required) Provide related use cases.
-    > Rationale: This is incredibly useful for software architecture design and UI design. E.g., "View a *&lt;whatever&gt;*" is related to "Find *&lt;whatever&gt;* s."ware architecture design and UI design. E.g., "View a *&lt;whatever&gt;*" is related to "Find *&lt;whatever&gt;* s."
+- Preconditions example:
+- The user must be logged into the system.
+- The user must have selected the Application List from the menu.
+- The following Use Cases must be completed.
+     <p style="color:blue;">General.KD.3 Login to NDK System.</p>
+     <p style="color:blue;"> NMSMİ.FG.5.KD.1 List Applications (5).</p>
 **[⬆ back to top](#table-of-contents)**
 
 <a name="action-steps"></a>
