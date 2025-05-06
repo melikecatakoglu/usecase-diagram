@@ -579,10 +579,11 @@
   </tr>
   <tr>
     <td>Primary Actor:</td>
-      <td style="width: 30%; text-align: left"> <em>[Users who will generate the report or use it to make decisions]</em></td>
-        Report recipient(s) <em>[Users who will generate the report or use it to make decisions]</em>
+      <td style="width: 30%; text-align: left"> <em></em></td>
+        Report recipient(s) <em>]</em>
     </td>
   </tr>
+       
   <tr>
     <td>Description:</td>
     <td style="width: 80%; text-align: left" colspan="3">
