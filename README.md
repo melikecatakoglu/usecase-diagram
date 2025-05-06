@@ -58,7 +58,7 @@
 ## 3.Actor
 An actor specifies a role played by a user or any other system that interacts with the system under development.
   <a name="actors--name"></a><a name="3.1"></a>
-  - [3.1](#actors--name) Use a singular substantive name.Primary actor: initiates the use case to achieve a goal To highlight this characteristic, capitalize the actor's name.The sentence should begin with <the user>. 
+  - [3.1](#actors--name) Use a singular substantive name.
     - Positive example: Customer *&lt;completes a task&gt;*.
     - Negative example: The spirit team director *&lt;completes a task&gt;*.
 
