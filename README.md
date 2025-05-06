@@ -56,22 +56,21 @@
 
 <a name="actors"></a>
 ## 3.Actor
-An actor specifies a role played by a user or any other system that interacts with the system under development.Who has the goal?
+An actor specifies a role played by a user or any other system that interacts with the system under development.
   <a name="actors--name"></a><a name="3.1"></a>
-  - [3.1](#actors--name) Use a singular substantive name. To highlight this characteristic, capitalize the actor's name.The sentence should begin with <the user>. 
-    - Positive example: The Spirit Team Director *&lt;completes a task&gt;*.
+  - [3.1](#actors--name) Use a singular substantive name.Primary actor: initiates the use case to achieve a goal To highlight this characteristic, capitalize the actor's name.The sentence should begin with <the user>. 
+    - Positive example: Customer *&lt;completes a task&gt;*.
     - Negative example: The spirit team director *&lt;completes a task&gt;*.
 
 **[⬆ back to top](#table-of-contents)**
 
 <a name="precondition"></a>
 ## 4.Precondition
-The precondition names something that you want the SuD to ensure has happened before the use case starts.  When writing prerequisites, short and technical expressions should be used.
+The precondition names something that you want the SuD to ensure has happened before the use case starts. Preconditions: List what must be true before the use case starts.
 <a name="precondition"></a><a name="4.1"></a>
 - [4.1](#precondition)
 
-- Positive example: The user must log in to the system.
-- Negative example: The password reset link must not have expired.
+- Preconditions: User is logged in; items are in the cart.
 
 - Related use cases should be added after the precondition.
 - <a name="related-use-cases"></a>
